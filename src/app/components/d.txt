@@ -1,0 +1,3 @@
+A tool which allows the user to create blocks on the screen which then can be resized to create a skeleton ui. Once the user has created it's desired UI, for example 2 paragraphs with two buttons there should then be a section where a functional component in JSX is generated based off the UI which the user has created.
+
+So basically a tool that allows to visually create a skeleton component.
