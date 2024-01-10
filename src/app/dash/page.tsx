@@ -1,8 +1,4 @@
-/**
- * v0 by Vercel.
- * @see https://v0.dev/t/HrmIkE4mh2A
- */
-import { Button } from "../../components/ui/button"
+import { Button, defaultTheme, Provider } from '@adobe/react-spectrum';
 
 export default function Component() {
     return (
