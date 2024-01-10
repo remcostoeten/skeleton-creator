@@ -1,4 +1,4 @@
-import { Button, defaultTheme, Provider } from '@adobe/react-spectrum';
+import { Button } from "@/components/ui/button";
 
 export default function Component() {
     return (

@@ -33,15 +33,15 @@ const SkeletonBlock: React.FC<SkeletonBlockProps> = ({ initialWidth, initialHeig
         setIsResizing(false);
     };
 
-    useEffect(() => {
-        document.addEventListener('mousemove', handleMouseMove);
-        document.addEventListener('mouseup', handleMouseUp);
+    // useEffect(() => {
+    //     document.addEventListener('mousemove', handleMouseMove);
+    //     document.addEventListener('mouseup', handleMouseUp);
 
-        return () => {
-            document.removeEventListener('mousemove', handleMouseMove);
-            document.removeEventListener('mouseup', handleMouseUp);
-        };
-    }, [isResizing]);
+    //     return () => {
+    //         document.removeEventListener('mousemove', handleMouseMove);
+    //         document.removeEventListener('mouseup', handleMouseUp);
+    //     };
+    // }, [isResizing]);
 
     return (
         <div className="skeleton-block" ref={blockRef} style={{ width: `${width}px`, height: `${height}px` }}>

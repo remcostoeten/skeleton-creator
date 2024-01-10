@@ -1,8 +1,8 @@
 'use client';
+import GeneratedComponentShell from '@/src/components/GeneratedComponentShell';
+import SkeletonBlock from '@/src/components/SkeletonBlock';
 // pages/index.tsx
 import React, { useState } from 'react';
-import SkeletonBlock from '../components/SkeletonBlock';
-import GeneratedComponentShell from '../components/GeneratedComponentShell';
 
 export default function Home() {
     const [blocks, setBlocks] = useState<{ width: number; height: number }[]>([{ width: 50, height: 50 }]);

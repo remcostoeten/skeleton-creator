@@ -1,4 +1,4 @@
-import MarkdownRender from "../components/MarkdownRenderer";
+import MarkdownRender from "@/src/components/MarkdownRenderer";
 
 export default function MyComponent() {
     const mdString = `
