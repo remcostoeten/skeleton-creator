@@ -53,7 +53,7 @@ export default function Home() {
                     onUpdateSize={(newWidth, newHeight) => updateSize(index, newWidth, newHeight)}
                 />
             ))}
-    
+
             <div>
                 <h2>Generated JSX:</h2>
                 <GeneratedComponentShell generatedJSX={generatedJSX} width={0} height={0} />
